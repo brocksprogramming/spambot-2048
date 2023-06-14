@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Spam Bot Game</title>
+    <link rel="stylesheet" href="popup.css">
+    <script src="popup.js"></script>
+  </head>
+  <body>
+    <button id="donate-button" style="background-color:yellow;">Donate</button>
+    <audio id="game-music" src="spookncreep.mp3" loop></audio>
+    <h1>Welcome to Spam Bot 2048!</h1>
+    <!-- Add your game content here -->
+    <div class="game-container" id="game-container">
+      <div id="background-layer1" class="background-layer"></div>
+      <div id="background-layer2" class="background-layer"></div>
+      <div id="score"></div>
+      <div id="ground" class="ground"></div>
+      <div id="character" class="character"></div>
+      <div id="obstacle-container"></div>
+      <div id="game-over">Game Over
+        <div id ="retry">Retry</div>
+        <div id="quit">Quit Game</div>
+      </div>
+    </div>
+  </body>
+</html>

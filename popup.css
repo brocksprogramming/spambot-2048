@@ -1,0 +1,86 @@
+/* Customize the styles based on your game design */
+body {
+  width: 800px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  background-color: #f1f1f1;
+}
+
+h1 {
+  color: #333;
+}
+/* Game container */
+.game-container {
+  z-index: 1;
+  width: 700px; /* Adjust the width as desired */
+  height: 500px; /* Adjust the height as desired */
+  position: relative;
+  overflow: hidden;
+}
+
+/* Ground */
+.ground {
+  z-index: 4;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 20px; /* Adjust the height as needed */
+  background-color: #333; /* Adjust the color as needed */
+}
+
+/* Character */
+.character {
+  z-index: 6;
+  position: absolute;
+  bottom: 30px; /* Adjust the vertical position as needed */
+  left: 20px; /* Adjust the horizontal position as needed */
+  font-family: monospace; /* Adjust the font as needed */
+  font-size:50px;
+  color: #000; /* Adjust the color as needed */
+  /* Add styling for the character element here */
+}
+.background-layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#background-layer1 {
+  z-index: 2;
+  background-color: #336699; /* Set the background color for layer 1 */
+  /* Add any other desired styles for layer 1 */
+}
+
+#background-layer2 {
+  z-index: 3;
+  background-color: #99CCFF; /* Set the background color for layer 2 */
+  /* Add any other desired styles for layer 2 */
+}
+.obstacle {
+  z-index: 5;
+  position: absolute;
+  bottom: 30px; /* Adjust the vertical position as needed */
+  left: 600px; /* Adjust the horizontal position as needed */
+  font-size:50px;
+}
+#game-over {
+  width:300px;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:50px;
+  color: #000;
+}
+#score {
+  z-index: 6;
+  position: absolute;
+  left:0px;
+  top:0px;
+  color:#000;
+}
