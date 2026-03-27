@@ -1,7 +1,11 @@
 {
   "manifest_version": 3,
   "name": "Spambot 2048",
+<<<<<<< HEAD
   "version": "1.0.0",
+=======
+  "version": "1.1.0",
+>>>>>>> 3528e8b (Initial commit for version 1.1.0)
   "action": {
     "default_popup": "popup.html",
     "default_icon": "icon128.png"
